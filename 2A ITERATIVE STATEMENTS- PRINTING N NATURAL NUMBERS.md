@@ -53,7 +53,7 @@ else:
 
 ```
 ### RESULT
-thus the program is executeed successfully
+thus the program is executed successfully
 ```
 
 ```
