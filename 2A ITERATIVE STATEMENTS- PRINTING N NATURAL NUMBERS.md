@@ -1,36 +1,59 @@
 # Exp. No: 2a  
-## ITERATIVE STATEMENTS – PRINTING N NATURAL NUMBERS
+
 
 ###  Aim
-To create a Python program for printing `n` natural numbers using a `for` loop.
+Write a python program to compute whether a given number is an Armstrong Number
 
 ---
 
 ###  Algorithm
+Start
 
-1. Begin the program.
-2. Use `input()` to read the value of `n` (the upper limit) from the user.
-3. Convert the input to an integer.
-4. Display the message **"Natural Numbers are :"**.
-5. Use a `for` loop to iterate from 1 to `n` (inclusive).
-6. In each iteration, print the current value of `i`.
-7. Terminate the program.
+Read an integer from the user.
 
+Store the original number for later comparison.
+
+Count the number of digits (n).
+
+Initialize a sum to 0.
+
+For each digit in the number:
+
+Raise the digit to the power of n and add to the sum.
+
+Compare the sum with the original number:
+
+If equal, it's an Armstrong number.
+
+Else, it's not.
+
+End
 ---
 
 ### 🧾 Program
 
 ```python
-#Reg.NO
-#Name
+#Reg.NO 212223070004
+#Name dhushanth
 #Write your Code here
+num=input()
+sum=0
+for i in num:
+    sum+=int(i)**3
+if sum==int(num):
+    print("The given number",num,"is an Armstrong") 
+else:
+    print("The given number",num,"is not an Armstrong")
 
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/72bc7da2-943d-4ecf-adf0-e973e3950c8b)
+
 ```
 
 ```
 ### RESULT
+thus the program is executeed successfully
 ```
 
 ```
