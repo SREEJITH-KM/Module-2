@@ -4,36 +4,48 @@
 ---
 
 ### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+Write a program in Python to calculate the value of the following expression by using lambda function.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
+Start
+
+Define a lambda function for the expression f(x) = x^2 + 2x + 1.
+
+Take user input for the value of x.
+
+Pass the input to the lambda function to compute the result.
+
+Display the result.
+
+End
+
 
 ---
 
 ### PROGRAM
+a=lambda x,y,z:(x * 10) + (y / 2) * z
+x=int(input())
+y=int(input())
+z=int(input())
+print(a(x,y,z))
 
 ```
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/47ea9c1e-8764-4803-bf86-1934ff526d36)
+
 
 ```
 
 ```
 
 ### RESULT
+thus the program is executed successfully
 
 ```
 
