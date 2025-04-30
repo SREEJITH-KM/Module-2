@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-To write a Python program to print a triangular star pattern using loops.
+Write a Python Program to print the right handled triangle pyramid pattern of Stars
 
 ---
 
@@ -25,12 +25,24 @@ To write a Python program to print a triangular star pattern using loops.
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
+#Reg.No:212223070004
+#Name:dhushanth
 #Add Your Code Here
+rows=int(input())
+k=2*rows-2
+for i in range(0,rows):
+    for j in range(0,k):
+        print(end=" ")
+    k=k-2
+    for j in range(0,i+1):
+        print("*",end=" ")
+    print(" ")    
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/b57e08d7-4587-4efa-8499-75250a642fa4)
+
 
 ### RESULT
+thus the program is executed successfully
