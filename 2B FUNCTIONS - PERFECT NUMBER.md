@@ -2,31 +2,47 @@
 ## FUNCTIONS - PERFECT NUMBER
 
 ### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
+Write a Python function that takes a list and returns a new list with unique elements of the first list.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
+Start
+
+Define a function that takes a list as input.
+
+Initialize an empty list called unique_list.
+
+For each element in the input list:
+
+If the element is not already in unique_list, append it to unique_list.
+
+Return unique_list.
+
+End
+
 
 ---
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
+#Reg.No:212223070004
+#Name:dhushanth
 #Add your Code Here
+def unique_list(l):
+  x = []
+  for a in l:
+    if a not in x:
+      x.append(a)
+  return x
+
+
 
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/06a16af6-fc3d-4f87-86c4-0a414b11a3bf)
+
 
 ### RESULT
+thus the program is executed successfully
