@@ -27,9 +27,12 @@ End
 ---
 
 ### PROGRAM
-a=lambda z:z*2
+a=lambda z:z*2 
+
 z=int(input())
+
 print(a(z))
+
 
 ```
 ```
