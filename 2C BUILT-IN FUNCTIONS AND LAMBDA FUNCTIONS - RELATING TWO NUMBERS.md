@@ -27,9 +27,13 @@ End
 
 ### PROGRAM
 a=lambda x,y,z:(x * 10) + (y / 2) * z
+
 x=int(input())
+
 y=int(input())
+
 z=int(input())
+
 print(a(x,y,z))
 
 ```
